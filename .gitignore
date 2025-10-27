@@ -1,0 +1,41 @@
+# R / RStudio
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# Ambiente/segredos
+.Renviron
+.env
+.env.*
+
+# renv
+renv/library/
+renv/staging/
+# renv/cache normalmente é global; ignore se estiver dentro do repo
+renv/cache/
+
+# R Markdown / Quarto
+*_cache/
+cache/
+.Rcheck/
+_book/
+_bookdown_files/
+_freeze/
+.quarto/_freeze/
+
+# Saídas do projeto
+outputs/
+reports/
+figures/
+
+# CSVs gerados pelo projeto
+freq_keywords_por_periodo.csv
+freq_keywords_top_por_periodo.csv
+freq_keywords_total.csv
+
+# IDE/OS variados
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
