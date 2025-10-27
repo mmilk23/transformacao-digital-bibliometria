@@ -1,3 +1,4 @@
+.gitignore
 freq_keywords_por_periodo.csv
 freq_keywords_top_por_periodo.csv
 freq_keywords_total.csv
